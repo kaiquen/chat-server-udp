@@ -5,8 +5,8 @@
   "repository": "https://github.com/kaiquen/chat-server-udp.git",
   "license": "MIT",
   "scripts": {
-    "server": "nodemon server/server.ts",
-    "client": "nodemon client/client.ts"
+    "server": "nodemon --watch src/server src/server/server.ts",
+    "client": "nodemon --watch src/client src/client/client.ts"
   },
   "dependencies": {
     "express": "^4.18.1"
